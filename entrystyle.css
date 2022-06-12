@@ -1,0 +1,129 @@
+body{
+margin: 0;
+padding: 0;
+font-family: cursive;
+}
+
+.wrapper{
+width: 100%;
+height: 160vh;
+background-image:
+ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/sahara.jpg);
+background-size: cover;
+background-position: center;
+}
+
+/*.........styling the navigation bar..........*/
+
+.navbar{
+height: 12%;
+display: flex;
+justify-content: space-between;
+}
+
+.logo{
+cursor: pointer;
+color: white;
+font-size: 28px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 0;
+padding-right: 10px;
+border: 1px solid orange;
+border-radius: 10px;
+margin-top:10px;
+}
+
+span{
+color: orange;
+}
+
+nav{
+float: right;
+padding-bottom: 50px;
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 50px;
+position: relative;
+}
+
+nav ul li::after{
+position: absolute;
+display: block;
+content: '';
+background-color: white;
+width: 100%;
+height: 1px;
+margin: auto;
+transition: 250ms;
+}
+
+nav ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+}
+
+nav ul li a:hover{
+color: orange;
+}
+
+nav ul li a:hover::after{
+width: 100%;
+}
+
+.row{
+dispaly: flex;
+}
+
+.col{
+flex: 50%;
+padding-left: 70px;
+padding-right: 0;
+padding-top: 80px;
+}
+
+
+h1{
+color: white;
+font-size: 50px;
+margin-bottom: 2px;
+}
+
+p{
+color: white;
+font-size: 20px;
+}
+
+button{
+width: 120px;
+height: 30px;
+margin-top: 30px;
+background: orange;
+border: 1px solid orange;
+border-radius: 20px;
+outine: none;
+}
+
+button:hover{
+background-color: red;
+border-color: red;
+}
+.col2{
+width: 70px;
+height: 250px;
+padding: 20px;
+margin: auto;
+flex-basis: 30%;
+padding-left: 60%;
+padding-bottom: 30px;
+margin-bottom: 30px;
+background-image: url(img/nike.jpg);
+background-size: cover;
+border: 1px solid red;
+border-radius: 10px;
+opacity: 0.5;
+}

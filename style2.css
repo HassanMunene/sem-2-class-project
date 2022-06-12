@@ -1,0 +1,174 @@
+body{
+margin: 0 35px;
+font-family: 'poppins', sans-serif;
+}
+
+a{
+text-decoration: none;
+font-size: 1.5rem;
+}
+
+.hero-img{
+position: abosolute;
+background: url("img/nike.jpg");
+background-size: cover;
+background-position-x: 40%;
+background-position-y: 20%;
+float: right;
+width: 50%;
+height: 100vh;
+z-index: -1;
+padding: 0;
+}
+
+header{
+position: absolute;
+display: flex;
+justify-content: space-between;
+width: 100%;
+z-index: 2;
+background-color: transparent;
+}
+.logo{
+padding-top:20px;
+padding-left: 20PX;
+padding-right: 20PX;
+margin: 15px;
+color: black;
+font-size: 25px;
+z-index: 2;
+border: 1px solid;
+border-radius: 18px;
+background-image: linear-gradient(to right, white, red);
+border-color: white;
+opacity: 1;
+}
+
+span{
+color: white; 
+}
+
+ul{
+list-style: none;
+text-transform: capitalize;
+}
+
+li{
+display: inline-block;
+margin-top: 0;
+margin-right: 80px;
+position: relative;
+}
+
+li::after{
+display: block;
+background-color: white;
+content: '';
+height: 1px;
+margin: auto;
+width:0%;
+transition: 250ms;
+}
+
+li:hover::after{
+width: 100%;
+}
+
+a{
+color: white;
+font-size: 13px;
+}
+
+a:hover{
+color: black;
+}
+
+section.hero{
+color: white;
+float: left;
+padding-top: 200px;
+padding-left: 40px;
+
+}
+
+h1{
+color: black;
+font-size: 2em;
+line-height: 33px;
+font-family: cursive;
+}
+
+.hero p{
+color: black;
+font-size: 1em;
+font-family: cursive;
+}
+
+img{
+width: 350px;
+height:300px;
+object-fit: cover;
+}
+
+.extra{
+padding-top: 450px;
+max-width: 50%;
+padding-left: 120px;
+}
+
+.adventure{
+padding-top: 550px;
+text-align: center;
+font-size: 30px;
+font-family: cursive;
+}
+
+.cta{
+dispaly: inline-block;
+text-decoration: none;
+color: black;
+border: 1px solid #000000;
+padding: 10px 15px;
+font-size: 16px;
+background: transparent;
+position: relative;
+cursor: pointer
+}
+
+.cta:hover{
+border: 1px solid;
+border-color: orange;
+background: orange;
+transition: 1s;
+}
+.fa{
+display: none;
+}
+
+@media(max-width: 700px){
+  h1{
+font-size: 1em;
+}
+
+ li{
+display:block;
+}
+
+nav{
+position: absolute;
+background-image: linear-gradient(to bottom, black, red);
+height: 100vh;
+width: 200px;
+top: 0;
+right: 0;
+opacity: 0.6;
+text-align: left;
+z-index: 2;
+}
+ul{
+padding-left: 0;
+}
+li{
+text-transform: uppercase;
+line-height: 2em;
+}

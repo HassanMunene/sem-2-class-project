@@ -1,0 +1,164 @@
+body{
+margin: 0;
+}
+.wrap{
+background: url(img/back3.jpg);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: cover;
+height: 100vh;
+overflow: hidden;
+background-blend-mode: overlay;
+}
+
+.wave{
+position: absolute;
+width: 100%;
+color: #ffffff;
+bottom: -130px;
+opacity: 1;
+}
+
+header{
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+background-color: transparent;
+height: 40px;
+}
+
+.logo{
+font-size: 25px;
+font-weight: bold;
+color: #ffffff;
+float: left;
+margin: 5px;
+}
+
+.menu{
+float: right;
+
+}
+
+ul{
+text-decoration: none;
+list-style: none;
+}
+
+li{
+display: inline-block;
+text-transform: uppercase;
+}
+
+li a{
+color: #000000;
+text-decoration: none;
+font-size: 16px;
+margin: 0 20px;
+letter-spacing: 1px;
+}
+
+li a:hover{
+color:#ffffff
+}
+
+.content{
+max-width: 55%;
+padding: 180px 80px 0;
+color: #ffffff;
+}
+
+h1{
+font-size: 44px;
+color: #ff5733;
+font-family: serif;
+}
+
+p{
+font-size: 15px;
+font-weight: 300;
+padding: 0;
+}
+
+.book{
+margin-top: 25px;
+}
+
+.book a{
+display: inline-block;
+padding: 15px 15px;
+text-decoration: none;
+color: #ffffff;
+
+}
+.color1{
+border: 2px solid;
+border-radius: 50px;
+background: #ffc300;
+}
+
+.ourpartners{
+padding: 0 80px;
+position: relative;
+}
+
+h3{
+font-size: 24px;
+margin-bottom: 0px;
+}
+
+hr{
+border: none;
+height: 2px;
+width: 100px;
+background-color: #ffc300;
+position: absolute;
+}
+
+.inner{
+margin-top: 40px;
+padding: 0 80PX;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+padding: 0 25px;
+letter-space: 1px;
+}
+
+.facebook{
+border: 1px solid;
+border-radius: 50px;
+font-family: calibri;
+background-color: #3f51b5;
+color: #ffffff;
+}
+
+.saf{
+border: 1px solid;
+border-radius: 50px;
+background-color: #388e3c;
+color: #ffffff;
+}
+
+.mash{
+border: 1px solid;
+border-radius: 50px;
+color: #d50000;
+}
+
+.magic{
+color: red;
+font-family: cursive;
+}
+
+.jaanak{
+position: relative;
+font-family: serif;
+text-decoration: underline overline;
+color: purple;
+}
